@@ -1,0 +1,19 @@
+<h4>
+  口令：
+  <input #passPhrase>
+  <p></p>
+  长度：
+  <input #bitLenght>
+</h4>
+<button (click)="generateClick(passPhrase.value,bitLenght.value)">生成公钥</button>
+<h4>公钥：</h4>
+<p>{{publicKey}}</p>
+<input #encryptInput>
+<button (click)="encryptClick(encryptInput.value)">加密</button>
+<h4>密文：</h4>
+<input #cipherInput id="cipherInput" value="{{encryptResult}}">
+<h4>解密口令：</h4>
+<input #dencryptPhrase>
+<button (click)="dencryptClick(cipherInput.value,dencryptPhrase.value)">解密</button>
+<h4>解密结果：</h4>
+<p>{{decryptResult}}</p>
