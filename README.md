@@ -31,3 +31,7 @@ Angular4 使用TypeScript进行编码，以下是如何在Angular中调用原生
 
 ## 预览
 
+![jsencrypt](./preview/jsencrypt.png)
+
+![cryptico](./preview/cryptico.png)
+
