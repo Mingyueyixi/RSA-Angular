@@ -1,5 +1,5 @@
 # RsaAngular
-> 这仅仅是一个示例，且不再更新。
+> 这仅仅是一个示例，且不再更新。This is just an example. Maybe it is out of date.
 
 项目由 [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.初始化
 
